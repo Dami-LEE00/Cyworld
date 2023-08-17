@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7f4768f044.js" crossorigin="anonymous"></script>
+  <!-- Custom JS / CSS -->
+  <script defer src="/script.js"></script>
+  <link rel="stylesheet" href="/style.css">
+  <title>Cyworld</title>
+</head>
+<body>
+  <div class="background">
+    <div class="outerbox">
+      <div class="wrapper">
+        <div class="wrapper_left">
+          <div class="wrapper_left_header">
+            <div class="today">
+              <span>TODAY</span>
+              <span class="zero">275</span>
+              <span>TOTAL</span>
+              <span class="count">98432</span>
+            </div>
+          </div>
+          <div class="wrapper_left_body">
+            <div class="left_body_header">
+              <div class="left_body_header_img"></div>
+              <div class="left_body_header_line"></div>
+            </div>
+            <div class="left_body_profile">
+              <div class="profile_detail">
+                <i class="fas fa-file-signature"></i>
+                <span>이다미</span>
+              </div>
+              <div class="profile_detail">
+                <i class="fas fa-phone"></i>
+                <span>010-7773-0540</span>
+              </div>
+              <div class="profile_detail">
+                <i class="fas fa-envelope"></i>
+                <span>ecch74@naver.com</span>
+              </div>
+              <div class="profile_detail">
+                <i class="fab fa-instagram-square"></i>
+                <span>dxmxx</span>
+              </div>
+            </div>
+            <div class="left_body_footer">
+              <div class="wrapper_feel">
+                <div class="feel_title">오늘의 기분</div>
+                <select>
+                  <option>기쁨 😊</option>
+                  <option>슬픔 😥</option>
+                  <option>화남 😤</option>
+                  <option>분노 😡</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper_right">
+          <div class="wrapper_right_header">
+            <div class="right_header_title">사이좋은 사람들, 싸이월드</div>
+            <div class="right_header_setting">사생활보호설정
+              <i class="fas fa-caret-right arrow"></i>
+            </div>
+          </div>
+          <div class="wrapper_right_body">
+            <iframe src="/home.html" id="contentFrame"></iframe>
+          </div>
+        </div>
+        <div class="navigation">
+          <div class="navigation-item" id="menuHome" onclick="menuHome()">홈</div>
+          <div class="navigation-item" id="menuGame" onclick="menuGame()">게임</div>
+          <div class="navigation-item" id="menuJukebox" onclick="menuJukebox()">쥬크박스</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
